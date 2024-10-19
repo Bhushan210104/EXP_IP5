@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Math Utilities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Title centered across all sections -->
+  <div class="title">
+    <h1>Interactive Math Utilities</h1>
+  </div>
+
+  <!-- Container for all sections -->
+  <div class="container">
+    <!-- Basic Calculator Section -->
+    <div class="section" id="calculator-section">
+      <h2>Basic Calculator</h2>
+      <label for="num1">Number 1:</label>
+      <input type="number" id="num1" placeholder="Enter first number">
+      <label for="num2">Number 2:</label>
+      <input type="number" id="num2" placeholder="Enter second number">
+      <label for="operation">Operation:</label>
+      <input type="text" id="operation" placeholder="Enter +, -, *, /">
+      <button id="calculate-btn">Calculate</button>
+      <p id="calc-result"></p>
+    </div>
+
+    <!-- Custom Iterator Section -->
+    <div class="section" id="iterator-section">
+      <h2>Array Squaring Iterator</h2>
+      <label for="array-input">Enter numbers (comma-separated):</label>
+      <input type="text" id="array-input" placeholder="e.g., 1,2,3,4,5">
+      <button id="iterate-btn">Iterate & Square</button>
+      <p id="iterator-result"></p>
+    </div>
+
+    <!-- Prime Number Generator Section -->
+    <div class="section" id="prime-generator-section">
+      <h2>Prime Number Generator</h2>
+      <label for="prime-limit">Generate primes up to:</label>
+      <input type="number" id="prime-limit" placeholder="Enter limit">
+      <button id="generate-prime-btn">Generate Primes</button>
+      <p id="prime-result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
